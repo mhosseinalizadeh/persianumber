@@ -15,7 +15,7 @@ var defaultSettings = 'fa';
 		  convert(thisObj, range);
 	  });
 	function convert(obj, range){
-		  obj.find("*").andSelf().contents().each(function() {
+		  obj.find("*").addBack().contents().each(function() {
 			    if (this.nodeType === 3 && this.parentNode.localName != "style" && this.parentNode.localName != "script") {
 				    this.nodeValue = this.nodeValue.replace(this.nodeValue.match(/[0-9]*\.[0-9]+/), function(txt){
 					    return txt.replace(/\./,',');
