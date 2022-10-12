@@ -2,7 +2,7 @@
 
 ## How to use
 
-1. First, download the [persianumber.min.js](https://github.com/mhosseinalizadeh/persianumber/blob/master/persianumber.min.js) file.
-2. Add this file to the head section of the document after the [jQuery](https://jquery.com/) library.
-3. In the `.ready()` event for the document, use this syntax: `$('.persianumber').persiaNumber();`
+1. Download the [`persianumber.min.js`](https://github.com/whoismh11/persiaNumber/blob/mh11/persianumber.min.js) file.
+2. Add the file after the [jQuery](https://jquery.com/) library to the head section of the document.
+3. Merge the contents of the [`main.js`](https://github.com/whoismh11/persiaNumber/blob/mh11/main.js) file with your main.js file (if you don't have a main.js file, download and use this file).
 4. Use `persianumber` HTML class for any element you want to convert numbers to Persian.
