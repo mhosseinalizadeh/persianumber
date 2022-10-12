@@ -1,5 +1,7 @@
 # persiaNumber
 
+jQuery plugin to convert English numbers to Persian.
+
 ## How to use
 
 1. Download the [`persianumber.min.js`](https://github.com/whoismh11/persiaNumber/blob/mh11/persianumber.min.js) file.
