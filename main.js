@@ -1,4 +1,4 @@
 //persiaNumber
-$(document).ready(function () {
+$(document).ready(function() {
 	$('.persianumber').persiaNumber();
 });
